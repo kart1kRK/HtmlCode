@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    /* box-sizing: ; it will make every box of same size */
+}
+
+.Box {
+    width: 200px;
+    height: 200px;
+    border: 20px solid greenyellow;
+    padding: 30px ;
+    margin: 40px ;
+    /* margin is used to seperet 2 elements */
+}

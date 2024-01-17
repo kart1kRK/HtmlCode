@@ -1,66 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my bolck chain wiki</title>
 </head>
+
 <body>
 
     <h1>Blockchain</h1>
     <hr>
-    <p><i>From Wikipedia, the free encyclopedia</i></p>
-          <p>For other uses, see Block chain (disambiguation).</p>
-          <p>A <b>blockchain</b> is a <mark>distributed ledger</mark> with growing <del>lists</del> steps of records (blocks) that are securely linked together via cryptographic hashes.<sup>[1][2][3][4]</sup> Each block contains a <mark>cryptographic</mark> hash of the previous block, a<mark>timestamp</mark>, and transaction data (generally represented as a <mark>Merkle tree</mark>, where <mark>data nodes</mark> are represented by leaves). Since each block contains information about the previous block, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.
+    <center>
+        <p><i>From Wikipedia, the free encyclopedia</i></p>
+        <p>For other uses, see Block chain (disambiguation).</p>
+        <p>A <b>blockchain</b> is a <a href="https://en.wikipedia.org/wiki/Distributed_ledger"target="_blank">distributed ledger</a> with growing <del>lists</del> steps of records
+            (blocks) that are securely linked together via cryptographic hashes.<sup>[1][2][3][4]</sup> Each block
+            contains a <a href="https://en.wikipedia.org/wiki/Cryptography"target="_blank">cryptographic</a> hash of the previous block, a<mark>timestamp</mark>, and transaction
+            data (generally represented as a <mark>Merkle tree</mark>, where <mark>data nodes</mark> are represented by
+            leaves). Since each block contains information about the previous block, they effectively form a chain
+            (compare linked list data structure), with each additional block linking to the ones before it.
+            Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any
+            given block cannot be altered retroactively without altering all subsequent blocks.
 
-           <br> Blockchains are typically managed by a <mark>peer-to-peer (P2P)</mark> computer network for use as a public <mark>distributed ledger</mark>, where nodes collectively adhere to a <mark>consensus algorithm protocol</mark> to add and validate new transaction blocks. Although blockchain records are not unalterable, since <mark>blockchain forks</mark> are possible, blockchains may be considered <mark>secure by design</mark> and exemplify a distributed computing system with high <mark>Byzantine fault tolerance</mark>.<sup>[5]</sup>
-            
-            <br> A blockchain was created by a person (or group of people) using the name (or pseudonym) <mark>Satoshi Nakamoto</mark> in 2008 to serve as the <mark>public distributed ledger</mark> for<mark> bitcoin cryptocurrency transactions</mark>, based on previous work by<mark>Stuart Haber, W. Scott Stornetta, and Dave Bayer</mark> .<sup>[6]</sup> The implementation of the blockchain within bitcoin made it the first digital currency to solve the <mark>double-spending problem</mark> without the need for a<mark> trusted authority or central server</mark>. The bitcoin design has inspired other applications<sup>[3][2]</sup> and blockchains that are readable by the public and are widely used by <mark>cryptocurrencies</mark>. The blockchain may be considered a type of payment rail.<sup>[7]</sup></p>
-            2H<sub>2</sub>+O<sub>2</sub>->2H<sub>2</sub>O
-            <hr>
+            <br> Blockchains are typically managed by a <mark>peer-to-peer (P2P)</mark> computer network for use as a
+            public <a href="https://en.wikipedia.org/wiki/Distributed_ledger"target="_blank">distributed ledger</a>, where nodes collectively adhere to a <mark>consensus algorithm
+                protocol</mark> to add and validate new transaction blocks. Although blockchain records are not
+            unalterable, since <mark>blockchain forks</mark> are possible, blockchains may be considered <mark>secure by
+                design</mark> and exemplify a distributed computing system with high <mark>Byzantine fault
+                tolerance</mark>.<sup>[5]</sup>
+
+            <br> A blockchain was created by a person (or group of people) using the name (or pseudonym) <mark>Satoshi
+                Nakamoto</mark> in 2008 to serve as the <mark>public distributed ledger</mark> for<mark> bitcoin
+                cryptocurrency transactions</mark>, based on previous work by<mark>Stuart Haber, W. Scott Stornetta, and
+                Dave Bayer</mark> .<sup>[6]</sup> The implementation of the blockchain within bitcoin made it the first
+            digital currency to solve the <mark>double-spending problem</mark> without the need for a<mark> trusted
+                authority or central server</mark>. The bitcoin design has inspired other applications<sup>[3][2]</sup>
+            and blockchains that are readable by the public and are widely used by <mark>cryptocurrencies</mark>. The
+            blockchain may be considered a type of payment rail.<sup>[7]</sup>
+        </p>
+        2H<sub>2</sub>+O<sub>2</sub>->2H<sub>2</sub>O
+    </center>
+    <hr>
     <h2>Histroy</h2>
     <hr>
-    <img align="right"
-         width="900"height="400" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/2011-2021_blockchain_transactions.jpg" alt="this is a image of history of a graph">
-    <p>Cryptographer <mark>David</mark> Chaum first proposed a blockchain-like protocol in his 1982 dissertation "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups."<sup>[10]</sup> Further work on a cryptographically secured chain of blocks was described in 1991 by <mark>Stuart Haber</mark> and <mark>W. Scott Stornetta</mark>.<sup>[4][11]</sup> They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design, which improved its efficiency by allowing several document certificates to be collected into one block.[4][12] Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995.<sup>[13]</Sup>
+    <img align="right" width="900" height="400"
+        src="https://upload.wikimedia.org/wikipedia/commons/a/ac/2011-2021_blockchain_transactions.jpg"
+        alt="this is a image of history of a graph">
 
-        <br> The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the chain.[4] The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network.<Sup>[3]</Sup>
-        
-       <br> In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20 GB (gigabytes).<sup>[14]</sup> In January 2015, the size had grown to almost 30 GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size had exceeded 200 GB by early 2020.<sup>[15]</sup>
-        
-       <br> The words block and chain were used separately in Satoshi Nakamoto's original paper, but were eventually popularized as a single word, blockchain, by 2016.<sup>[16]</sup>
-        
-        </p>     
-        
+    <p>Cryptographer <mark>David</mark> Chaum first proposed a blockchain-like protocol in his 1982 dissertation
+        "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups."<sup>[10]</sup> Further
+        work on a cryptographically secured chain of blocks was described in 1991 by <mark>Stuart Haber</mark> and
+        <mark>W. Scott Stornetta</mark>.<sup>[4][11]</sup> They wanted to implement a system wherein document timestamps
+        could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design,
+        which improved its efficiency by allowing several document certificates to be collected into one block.[4][12]
+        Under their company Surety, their document certificate hashes have been published in The New York Times every
+        week since 1995.<sup>[13]</Sup>
+
+        <br> The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi
+        Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp
+        blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to
+        stabilize the rate at which blocks are added to the chain.[4] The design was implemented the following year by
+        Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all
+        transactions on the network.<Sup>[3]</Sup>
+
+        <br> In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred
+        on the network, reached 20 GB (gigabytes).<sup>[14]</sup> In January 2015, the size had grown to almost 30 GB,
+        and from January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size
+        had exceeded 200 GB by early 2020.<sup>[15]</sup>
+
+        <br> The words block and chain were used separately in Satoshi Nakamoto's original paper, but were eventually
+        popularized as a single word, blockchain, by 2016.<sup>[16]</sup>
+
+    </p>
+
+
 
     <h2>Structure and design</h2>
-        <hr>
-        <img align="right"
-         width="300"height="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Blockchain.svg/300px-Blockchain.svg.png" alt="tis is a image of structure and design">
-        <p>A blockchain is a decentralized, distributed, and often public, digital ledger consisting of records called blocks that are used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.<sup>[3][20]</sup> This allows the participants to verify and audit transactions independently and relatively inexpensively.[21] A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests.<sup>[22]</sup> Such a design facilitates robust workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double-spending. A blockchain has been described as a value-exchange protocol.<sup>[23]</sup> A blockchain can maintain title rights because, when properly set up to detail the exchange agreement, it provides a record that compels offer and acceptance.[citation needed]</p>
-       </br> 
-       <p>Logically, a blockchain can be seen as consisting of several layers:<sup>[24]</sup></p>
-       <p><li>infrastructure (hardware)</li>
-       <br><li>networking (node discovery, information propagation<sup>[25]</sup> and verification)</li>
-       <br><li>consensus (proof of work, proof of stake)</li>
-       <br><li>data (blocks, transactions)</li>
-       <br><li>application (smart contracts/decentralized applications, if applicable)</li>
-        </p>
-        
-    <h2><b>Blocks</b></h2>
-        <p>Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree.[3] Each block includes the cryptographic hash of the prior block in the blockchain, linking the two. The linked blocks form a chain.[3] This iterative process confirms the integrity of the previous block, all the way back to the initial block, which is known as the genesis block (Block 0).[26][27] To assure the integrity of a block and the data contained in it, the block is usually digitally signed.[28]
-          <br>
-          <br>Sometimes separate blocks can be produced concurrently, creating a temporary fork. In addition to a secure hash-based history, any blockchain has a specified algorithm for scoring different versions of the history so that one with a higher score can be selected over others. Blocks not selected for inclusion in the chain are called orphan blocks.[27] Peers supporting the database have different versions of the history from time to time. They keep only the highest-scoring version of the database known to them. Whenever a peer receives a higher-scoring version (usually the old version with a single new block added) they extend or overwrite their own database and retransmit the improvement to their peers. There is never an absolute guarantee that any particular entry will remain in the best version of history forever. Blockchains are typically built to add the score of new blocks onto old blocks and are given incentives to extend with new blocks rather than overwrite old blocks. Therefore, the probability of an entry becoming superseded decreases exponentially[29] as more blocks are built on top of it, eventually becoming very low.[3][30]: ch. 08 [31] For example, bitcoin uses a proof-of-work system, where the chain with the most cumulative proof-of-work is considered the valid one by the network. There are a number of methods that can be used to demonstrate a sufficient level of computation. Within a blockchain the computation is carried out redundantly rather than in the traditional segregated and parallel manner.[32]</p>
-    <h2><b>Block Time</b></h2>
-        <p>The block time is the average time it takes for the network to generate one extra block in the blockchain. By the time of block completion, the included data becomes verifiable. In cryptocurrency, this is practically when the transaction takes place, so a shorter block time means faster transactions. The block time for Ethereum is set to between 14 and 15 seconds, while for bitcoin it is on average 10 minutes.[33]
+    <hr>
+    <img align="right" width="300" height="500"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Blockchain.svg/300px-Blockchain.svg.png"
+        alt="tis is a image of structure and design">
+    <p>A blockchain is a decentralized, distributed, and often public, digital ledger consisting of records called
+        blocks that are used to record transactions across many computers so that any involved block cannot be altered
+        retroactively, without the alteration of all subsequent blocks.<sup>[3][20]</sup> This allows the participants
+        to verify and audit transactions independently and relatively inexpensively.[21] A blockchain database is
+        managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated
+        by mass collaboration powered by collective self-interests.<sup>[22]</sup> Such a design facilitates robust
+        workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes
+        the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was
+        transferred only once, solving the long-standing problem of double-spending. A blockchain has been described as
+        a value-exchange protocol.<sup>[23]</sup> A blockchain can maintain title rights because, when properly set up
+        to detail the exchange agreement, it provides a record that compels offer and acceptance.[citation needed]</p>
+    </br>
+    <p>Logically, a blockchain can be seen as consisting of several layers:<sup>[24]</sup></p>
+    <p>
+        <li>infrastructure (hardware)</li>
+        <br>
+        <li>networking (node discovery, information propagation<sup>[25]</sup> and verification)</li>
+        <br>
+        <li>consensus (proof of work, proof of stake)</li>
+        <br>
+        <li>data (blocks, transactions)</li>
+        <br>
+        <li>application (smart contracts/decentralized applications, if applicable)</li>
+    </p>
 
-        </p>
+    <h2><b>Blocks</b></h2>
+    <p>Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree.[3] Each block includes
+        the cryptographic hash of the prior block in the blockchain, linking the two. The linked blocks form a chain.[3]
+        This iterative process confirms the integrity of the previous block, all the way back to the initial block,
+        which is known as the genesis block (Block 0).[26][27] To assure the integrity of a block and the data contained
+        in it, the block is usually digitally signed.[28]
+        <br>
+        <br>Sometimes separate blocks can be produced concurrently, creating a temporary fork. In addition to a secure
+        hash-based history, any blockchain has a specified algorithm for scoring different versions of the history so
+        that one with a higher score can be selected over others. Blocks not selected for inclusion in the chain are
+        called orphan blocks.[27] Peers supporting the database have different versions of the history from time to
+        time. They keep only the highest-scoring version of the database known to them. Whenever a peer receives a
+        higher-scoring version (usually the old version with a single new block added) they extend or overwrite their
+        own database and retransmit the improvement to their peers. There is never an absolute guarantee that any
+        particular entry will remain in the best version of history forever. Blockchains are typically built to add the
+        score of new blocks onto old blocks and are given incentives to extend with new blocks rather than overwrite old
+        blocks. Therefore, the probability of an entry becoming superseded decreases exponentially[29] as more blocks
+        are built on top of it, eventually becoming very low.[3][30]: ch. 08 [31] For example, bitcoin uses a
+        proof-of-work system, where the chain with the most cumulative proof-of-work is considered the valid one by the
+        network. There are a number of methods that can be used to demonstrate a sufficient level of computation. Within
+        a blockchain the computation is carried out redundantly rather than in the traditional segregated and parallel
+        manner.[32]
+    </p>
+    <h2><b>Block Time</b></h2>
+    <p>The block time is the average time it takes for the network to generate one extra block in the blockchain. By the
+        time of block completion, the included data becomes verifiable. In cryptocurrency, this is practically when the
+        transaction takes place, so a shorter block time means faster transactions. The block time for Ethereum is set
+        to between 14 and 15 seconds, while for bitcoin it is on average 10 minutes.[33]
+
+    </p>
     <h2><b>Hard Fork</b></h2>
-        <p><i>This section is an excerpt from Fork (blockchain) § Hard fork.</i></p>
-        <p>A hard fork is a change to the blockchain protocol that is not backward compatible and requires all users to upgrade their software in order to continue participating in the network. In a hard fork, the network splits into two separate versions: one that follows the new rules and one that follows the old rules.
-         <br>
-            <br>For example, Ethereum was hard forked in 2016 to "make whole" the investors in The DAO, which had been hacked by exploiting a vulnerability in its code. In this case, the fork resulted in a split creating Ethereum and Ethereum Classic chains. In 2014 the Nxt community was asked to consider a hard fork that would have led to a rollback of the blockchain records to mitigate the effects of a theft of 50 million NXT from a major cryptocurrency exchange. The hard fork proposal was rejected, and some of the funds were recovered after negotiations and ransom payment. Alternatively, to prevent a permanent split, a majority of nodes using the new software may return to the old rules, as was the case of bitcoin split on 12 March 2013.[34]
-          <br>  
-           <br> A more recent hard-fork example is of Bitcoin in 2017, which resulted in a split creating Bitcoin Cash.[35] The network split was mainly due to a disagreement in how to increase the transactions per second to accommodate for demand.[36]</p>
+    <p><i>This section is an excerpt from Fork (blockchain) § Hard fork.</i></p>
+    <p>A hard fork is a change to the blockchain protocol that is not backward compatible and requires all users to
+        upgrade their software in order to continue participating in the network. In a hard fork, the network splits
+        into two separate versions: one that follows the new rules and one that follows the old rules.
+        <br>
+        <br>For example, Ethereum was hard forked in 2016 to "make whole" the investors in The DAO, which had been
+        hacked by exploiting a vulnerability in its code. In this case, the fork resulted in a split creating Ethereum
+        and Ethereum Classic chains. In 2014 the Nxt community was asked to consider a hard fork that would have led to
+        a rollback of the blockchain records to mitigate the effects of a theft of 50 million NXT from a major
+        cryptocurrency exchange. The hard fork proposal was rejected, and some of the funds were recovered after
+        negotiations and ransom payment. Alternatively, to prevent a permanent split, a majority of nodes using the new
+        software may return to the old rules, as was the case of bitcoin split on 12 March 2013.[34]
+        <br>
+        <br> A more recent hard-fork example is of Bitcoin in 2017, which resulted in a split creating Bitcoin Cash.[35]
+        The network split was mainly due to a disagreement in how to increase the transactions per second to accommodate
+        for demand.[36]
+    </p>
 </body>
+
 </html>

@@ -1,0 +1,47 @@
+* {
+    font-family: cursive;
+}
+
+/* universal selector */
+
+body {
+
+    font-size: 24px;
+
+}
+
+p:hover {
+    font-family: monospace;
+}
+
+/* element selector */
+#first>p {
+    color: darkorchid;
+}
+
+/* nasted selector */
+body {
+    background-color: coral;
+}
+
+#first,
+#second {
+    color: rgb(43, 255, 0);
+}
+
+/* id selector and grouping selector*/
+
+.purple {
+
+    color: purple;
+    font-family: monospace;
+
+}
+
+/* class selector */
+
+.highlight {
+    background-color: rgb(12, 16, 1);
+    font-weight: bolder;
+    font-style: italic;
+}
