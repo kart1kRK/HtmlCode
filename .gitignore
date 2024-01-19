@@ -1,2 +1,2 @@
-*.vs_code
-*.DS_Store
+.vscode
+.DS_Store

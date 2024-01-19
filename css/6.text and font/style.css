@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&family=Silkscreen:wght@400;700&display=swap');
+/* fonts.google.com */
+
+
+
+
+body {
+    /* font-family: 'silkscreen','cursive'; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+
+    text-decoration: line-through;
+
+    text-decoration-line: underline;
+
+    /* text-decoration-style: wavy; */
+
+    text-decoration-color: aqua;
+
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 2rem; 
+    /* it will help you for spacing between each letter line-height: 10px; */
+
+    /* color: transparent; */
+    /* it will make actual font disapper text-shadow: 2px 2px 5px red, 2px 2px 1px yellow; */
+
+
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+}
