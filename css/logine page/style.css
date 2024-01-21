@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(212, 220, 228);
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    text-align: center;
+   
+}
+/* .outer-box{
+    width: 100%;
+    height: 500px;
+    text-align: center; 
+    
+} */
+.inner-box{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border:  2px solid #010001;
+    border-radius: 5px;
+    position: relative;
+    top: 70%;
+    font-size: 2rem;
+  
+    background-color: #ffcccb; /* You can change this color code to any color you prefer */
+}
+
+p{
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.email-container{
+    width: 364px;
+    height: 52px;
+    color: #ffffff;
+}
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 490px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.header{
+    padding: 24px;
+}
+a{
+    font-size: medium;
+}
+footer {
+    /* text-align: center; */
+    padding: 20px;
+    background-color: #f0f5f5;
+    color: #000;
+    margin-bottom: 0;
+  }
