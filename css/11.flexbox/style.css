@@ -26,10 +26,10 @@
 }
 
 #box-1 {
-    /* order: 1;
+    order: 1;
     flex-grow: 1;
-    /* flex-shrink: 2;  */
-    /* flex-basis: 200px; */
+    flex-shrink: 2; 
+    flex-basis: 200px;
 }
 
 #box-3 {
