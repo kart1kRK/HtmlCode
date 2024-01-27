@@ -299,7 +299,7 @@ header {
 
 .example-card:hover {
     box-shadow: 0 0 20px #888;
-    transition: 0.3sec ease-out;
+    transition: 0.3s ease-out;
 }
 
 .card-text {
