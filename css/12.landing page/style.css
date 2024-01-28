@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -58,6 +58,7 @@ ul {
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .flex {
@@ -82,6 +83,7 @@ ul {
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2sec ease-out;
+    text-align: center;
 }
 
 .primary-button:hover {
@@ -117,7 +119,9 @@ ul {
 
 /* nav */
 .main-nav {
+    margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -132,6 +136,9 @@ ul {
 .nav-links ul {
     justify-content: end;
     gap: 40px;
+}
+.nav-toggle{
+    display: none ;
 }
 
 /* Header section */
@@ -194,7 +201,7 @@ header {
 }
 
 .logos {
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -213,6 +220,7 @@ header {
 
 .features-header {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .features-heading-text {
@@ -222,7 +230,7 @@ header {
 .features-area {
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     margin-top: 30px;
 }
 
@@ -246,6 +254,9 @@ header {
 .big-feature-container {
     gap: 30px;
 }
+#second-big-feature {
+    flex-direction: row-reverse;
+}
 
 .feature-img img {
     width: 100%;
@@ -257,9 +268,11 @@ header {
 }
 
 /* example section */
-
+.example-section {
+    padding: 80px var(--padding-inline-section);
+}
 .example-header {
-    /* text-align: center; */
+    text-align: center;
     flex-direction: column;
     gap: 20px;
 }
@@ -267,6 +280,7 @@ header {
 .example-area {
     justify-content: space-between;
     margin-block: 30px;
+    flex-wrap: wrap;
 }
 
 .example-heading-text {
@@ -276,7 +290,7 @@ header {
 .example-card {
     width: 23%;
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
     background-size: cover;
@@ -316,6 +330,7 @@ header {
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section {
@@ -357,3 +372,4 @@ footer {
     justify-content: center;
     gap: 30px;
 }
+
