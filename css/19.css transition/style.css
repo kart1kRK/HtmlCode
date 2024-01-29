@@ -31,5 +31,5 @@
     cursor: pointer;
     background-color: black;
     color: white;
-    transform: translateY(-10px);
+    transform: translatey(-10px);
 }
