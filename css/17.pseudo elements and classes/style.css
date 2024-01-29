@@ -1,0 +1,69 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.primary-btn:link {
+    color: green;
+    padding: 10px;
+}
+.primary-btn:hover{
+    color: orange;
+}
+
+.primary-btn:visited{
+    color: red;
+    background-color: black;
+}
+
+.primary-btn:active{
+    color: black;
+    background-color: white;
+    border: 4px solid blue;
+} 
+
+/* ul li:first-child{
+    background-color: aqua;
+}
+ul li:last-child{
+    background-color: chartreuse;
+} */
+/* nth child */
+/* an+b */
+ul li:nth-child(2n){
+    background-color: gold;
+}
+ul li:nth-child(2n+1){
+    background-color: rgb(14, 245, 87);
+}
+h2::first-letter{
+    background-color: aqua;
+    font-size: 3rem;
+}
+p::first-line{
+    background-color: darkorange;
+}
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+h3::before{
+    content: 'any xyz ';
+}
+
+h3::after{
+    content: ' kartik' ;
+}
+
+.required::after{
+    content: '*';
+    color: red;
+}
+.important::after{
+    content: "important";
+    background-color:rgb(242, 17, 17);
+    color: chartreuse;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}

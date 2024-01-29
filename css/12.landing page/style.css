@@ -137,8 +137,9 @@ ul {
     justify-content: end;
     gap: 40px;
 }
-.nav-toggle{
-    display: none ;
+
+.nav-toggle {
+    display: none;
 }
 
 /* Header section */
@@ -254,6 +255,7 @@ header {
 .big-feature-container {
     gap: 30px;
 }
+
 #second-big-feature {
     flex-direction: row-reverse;
 }
@@ -271,6 +273,7 @@ header {
 .example-section {
     padding: 80px var(--padding-inline-section);
 }
+
 .example-header {
     text-align: center;
     flex-direction: column;
@@ -372,4 +375,3 @@ footer {
     justify-content: center;
     gap: 30px;
 }
-

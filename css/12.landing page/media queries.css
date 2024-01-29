@@ -1,9 +1,9 @@
 @media screen and (max-width: 991px) {
-    
+
     h3 {
         font-size: 1.2rem;
     }
-    
+
     .nav-toggle {
         display: block;
         margin-right: 20px;
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    
+
 
     .primary-button {
         width: 100%;
@@ -65,7 +65,8 @@
         min-width: calc(50% - 10px);
     }
 
-    .big-feature-container, #second-big-feature {
+    .big-feature-container,
+    #second-big-feature {
         flex-direction: column;
     }
 
@@ -90,11 +91,11 @@
     h1 {
         font-size: 2rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
-    
+
     h3 {
         font-size: 1.5rem;
     }
