@@ -12,6 +12,7 @@ body {
 
 p:hover {
     font-family: monospace;
+    background-color: azure;
 }
 
 /* element selector */
