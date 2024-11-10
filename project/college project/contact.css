@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-position: right;
+    background-color: rgb(240, 156, 188);
+  }
+  
+  .contact-container {
+    background-color: #fff;
+    padding:70px 30px;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slide-in 0.5s ease;
+    margin-left:200px; 
+    width:800px;
+  }
+  
+  .contact-form {
+    max-width:350px;
+    margin: 0 auto;
+  
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: #333;
+    font-size:30px;
+  }
+  
+  .input-container {
+    margin-bottom:15px;
+  }
+  
+  .input-container input[type="text"],
+  .input-container input[type="email"],
+  .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-container textarea {
+    height:100px;
+  }
+  .input-container input{ margin-bottom:15px;}
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .cover img{margin-left:100px;}
+  
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

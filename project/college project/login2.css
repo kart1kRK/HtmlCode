@@ -1,0 +1,127 @@
+body {
+     display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:skyblue;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    border:2px solid rgb(200,200,200,.2);
+    padding:70px 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    animation: fade-in 0.5s ease;
+    margin: 25px 25px;
+    flex:40%;
+    margin-left: 200px;
+  }
+  
+  .login-form {
+    max-width: 500px;
+    margin: 0 auto;
+    animation: slide-up 0.5s ease;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #333;
+    font-weight:bolder;
+    margin:35px 0;
+    font-size: 40px;
+  }
+  
+  .input-container {
+    margin-bottom:35px;
+    position: relative;
+  }
+  
+  .input-container input {
+    width:300px;
+    padding:8px;
+    font-size: 16px;
+    border: 2px solid #353535;
+    border-radius:20px;
+    background: transparent;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .checkbox-container input {
+    margin-right:5px;
+  }
+
+  .checkbox-container a{margin-left:60px;}
+  .checkbox-container a{color: #333;
+                        text-decoration: none; }
+   .checkbox-container a:hover{text-decoration: underline;}       
+   .input-container i{position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);               }              
+
+  button {
+    width: 80%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin:20px 30px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .links {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.9;
+    }
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  

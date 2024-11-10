@@ -9,3 +9,7 @@ console.log('c+d is', c+d);
 age = 30;
 console.log('age',age);
 console.log('name',name);
+alert("Hey its kartik")
+
+console.warn("hey its warning")
+console.error("hey its error")

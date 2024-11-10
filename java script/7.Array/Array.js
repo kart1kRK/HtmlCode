@@ -8,11 +8,9 @@ const words =["apple"
 },
 function hello() {
     console.log("hello World");
-},
+},]
 // console.log(words);  
 console.log(words[6]);
-
-
 
 // const cars = ["Saab", "Volvo", "BMW"];
 
